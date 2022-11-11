@@ -11,22 +11,34 @@ foods = {
   eggs: 48
 }
 
+console.log(foods)
 // Write code that prints all of the 'keys' of the foods variable 
 // you created above:
 // YOUR CODE HERE
+delete food("apples")
+delete food("grapes")
+delete food("eggs")
 
 // Write code that prints all of the 'values' of the foods variable 
 // you created above:
 // YOUR CODE HERE
+console.log(foods.apples)
+console.log(foods.grapes)
+console.log(foods.eggs)
 
 // Write code that prints the value of the second food of the foods variable 
 // you created above:
 // YOUR CODE HERE
+console.log(foods.grapes)
 
 // Write code that adds a food to the foods object. 
 // Then, print the updated object:
 // YOUR CODE HERE
+foods = {
+  muffins:800
+}
 
+console.log(foods.muffins)
 
 #-------------------
 // Part 2: Email
@@ -40,15 +52,23 @@ foods = {
 // value should be some appropriate value for that key. Work to have at least 5 key-value pairs.
 
 // Write code that logs your email object to the terminal.
+const email = {
+  sender: "John",
+  wordcount: 500
+}
 
+console.log(email)
 
 // Write code that logs all of the 'keys' of the email object 
 // you created above:
 // YOUR CODE HERE
+delete email("John",)
+
 
 // Write code that logs all of the 'values' of the email object 
 // you created above:
 // YOUR CODE HERE
+console.log(email.wordcount)
 
 
 #-------------------
@@ -99,3 +119,15 @@ console.log(posts[0]);
 // YOU DO: Create an array of at least 3 EMAIL Objects, using the same 
 // key-value pairs you used in your email Object above.
 // Then, print the email Array to the Terminal.
+
+email = [
+  {
+    messagesContainingPictures: "59",
+    mostFrequentContact: "judybjones@firefox.com",
+    earliestMessageRecived: "4:37 PM August 13, 2019",
+    numberOfMessagess: "5945",
+  }
+];
+
+console.log(email);
+
