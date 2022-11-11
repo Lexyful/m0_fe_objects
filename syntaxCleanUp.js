@@ -1,6 +1,9 @@
-var foods = {apples: 23, 
+var foods = 
+{apples: 23, 
   grapes: 507, 
   eggs: 48}
+  
+  console.log(foods)
 
 var person = { height: "6 ft", weight: "160 lbs" }
 
@@ -11,6 +14,9 @@ var post = { imageSrc: "./images/beach.png",
         number_likes: 0,
 comments: [] }
 
+console.log(person)
+console.log(post)
+
 
 var post2 =
 {
@@ -20,3 +26,5 @@ var post2 =
       numberLikes: 13,
       comments: []
 }
+
+console.log(post2)
